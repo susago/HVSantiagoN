@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, yellow, #6A2A1C);
+}
+h1 {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+  
+  nav ul li {
+    background-color: #7B3F3F;
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  nav ul ul li {
+    display: center;
+  }
+  
+  nav ul ul li a {
+    padding: 10px 20px;
+  }
+  
+  /* Mostrar submenús al pasar el ratón sobre el elemento padre */
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
